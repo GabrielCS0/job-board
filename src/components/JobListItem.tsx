@@ -22,7 +22,7 @@ const JobListItem = ({
     <article className="flex gap-3 rounded-lg border p-5 hover:bg-muted/60">
       <Image
         className="self-center rounded-lg"
-        src={companyLogoUrl || "company-logo-placeholder.png"}
+        src={companyLogoUrl || "/company-logo-placeholder.png"}
         alt={`${companyName} logo`}
         width={100}
         height={100}
